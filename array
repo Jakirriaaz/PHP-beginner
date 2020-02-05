@@ -1,0 +1,34 @@
+# PHP beggineer
+
+# ==ARRAY==
+
+<?php
+
+	//Index Array
+	
+	$mostIdiot = array (1=>'riaaz','imran','taufik');
+	
+	echo $mostIdiot[3];
+	
+	
+	// Associative Array (key=>value)
+	
+	$father = array('imran'=>24,'riaaz'=>26,'taufik'=>25);
+	
+	print_r ($father);
+	echo $father['riaaz']; 
+	
+	
+	// Multidimentional Array
+	
+	$father = array (
+		'toufik'=>array('age'=>24, 'sub'=>'youtube','hobby'=>'pungtami'),
+		'imran'=>array('age'=>25, 'sub'=>'CSE','hobby'=>'programmer'),
+		'riaaz'=>array('age'=>26, 'sub'=>'software','hobby'=>'abroad'),
+		
+	);
+	
+		print_r($father);
+		echo $father ['toufik'] ['hobby'];
+
+?>
