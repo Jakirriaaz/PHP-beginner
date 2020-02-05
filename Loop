@@ -1,0 +1,30 @@
+# PHP Beginner
+
+# ==LOOP==
+
+<?php
+
+// ==About Loopoop==
+
+// for (initialization;condition;increament/decrement){}
+
+for ($i=100;$i>=1;$i--){
+	echo $i .'<br>';
+}
+
+
+// While loop
+
+$i=1;
+while ($i<=100){
+	echo $i .'<br>';
+	
+	$i++;
+}
+
+// foreach loop
+$boss=array('riaaz'=>31,'imran'=>32,'taufik'=>33,'anower'=>34);
+foreach ($boss as $b=>$a){
+	echo $b.' is a boss and age is '. $a.'<br>';
+}
+?>
